@@ -1,0 +1,24 @@
+//Program to print Fibonacci series
+//Upto which term program can run find out
+//Make variation to print the reqd term of the Fib series
+#include<stdio.h>
+#include<conio.h>
+main()
+{int first, second, third, c, n;
+ first=0;
+ second=1;
+ printf("Upto how many terms do you want to print the Fibonacci series? \nEnter:\n");
+ scanf("%d", &n);
+ printf("Printing Fibonacci series upto %d", n);
+ printf(" terms:\n");
+ printf("%d  %d ", first, second);
+ for(c=3; c<=n; c++)
+ {
+          third=first+second;
+          printf(" %d ", third);
+          first=second;
+          second=third;
+}
+  
+ getch();
+}
