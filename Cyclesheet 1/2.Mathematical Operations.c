@@ -11,13 +11,11 @@ int main()
  switch(opt)
  {
             case 1: printf("\nThe sum is %d", a+b);
-                    break;
             case 2: printf("\nThe difference is %d", a-b);
-                    break;
             case 3: printf("\nThe product is %d", a*b);
-                    break;
             case 4: printf("\nThe quotient is %f", (float)a/b);
                     break;
+            default: printf("Invalid option. Exiting (0)");
 }
 getch();
 return 0;
