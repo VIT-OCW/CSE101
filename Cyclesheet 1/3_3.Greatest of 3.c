@@ -1,7 +1,7 @@
 //Author: Baishali Ghosh
 #include<stdio.h>
-#include<conio.h>
-int main()
+
+int main(void)
 {
       int a, b, c, g1, g2;
       printf("Enter the three numbers:\n ");
