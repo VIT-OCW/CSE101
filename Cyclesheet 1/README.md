@@ -1,39 +1,32 @@
 ## Computer Programming and Problem Solving Lab
 
-####Simple Programs
-1. Write a C program to display multiple lines using a single printf statement using escape sequences.
-2. Write a C program to perform various arithmetic operations. (Hint : Addition ,Subtraction ,Multiplication & Division)
-3. Write a C program to convert the temperature from Fahrenheit to Centigrade and vice versa.
-4. Write a C program to swap two numbers
-	1. With a temporary variable.
-	2. Without a temporary variable.
-5. Write a C program to compute simple interest, compound interest and amount.
-6. The speed of a van is 60 km / hour. Find the number of hours required for covering a distance of 350 kms. Write a C program for this scenario.
+####Introduction to Computers
 
-####Control Structures – Part A – (Decision/Selection Constructs)
-7. Write a C program to print the Multiplication table.
-8. Write a C program to find the greatest among three numbers.
-9. Write a C program to find whether the given number is odd or even.
-10. Write a C program to check whether the given year is leap year.
-11. Write a C program to find the grade obtained by a student according to the marks obtained (Hint: Input marks for at least 5 subjects)
-Grading System:
+1. Anatomy of computers - Demo
+2. OS,compiler,interpreter - Demo
+3. Making flowcharts using MS Visio
+4. Flowchart for printing a string,adding two numbers, swapping
 
-| Average Marks | Grade |
-|---------------|-------|
-|     >=90      |   S   |
-| >= 80 and <90 |   A   |
-| >= 70 and <80 |   B   |
-| >= 60 and <70 |   C   |
-| >=50 and < 60 |   D   |
-|      <50      |   F   |
+####Basic Programs
 
-####Control Structures – Part B – (Looping Constructs)
-12. Write a C program to compute the factorial of a given number.
-13. Write a C program to generate the Fibonacci series of n terms.
-14. Write a C program to reverse the given number.
-15. Write a C program to check whether the given number is a palindrome number.
-16. Write a C program to evaluate the expression for sine series.
-17. Write a C program for conversion from hexadecimal to octal/Binary/decimal.
-18. Write a C program to solve the following series
-	1. S = -1 + 3 – 11 + 43 – 171 + ......
-	2. S = (1/3) – (3/9) + (9/81) - .... N.
+5. Write a C program to display "VIT University" ( Use printf )
+6. Write a C program to read twon numbers and display the result of addition
+7. Write a C program to swap two numbers using a third variable
+8. Write a C program to compute area of a circle.
+
+####Programs Using Conditional Statements
+
+9. Find wether the given number is even or odd (if/else)
+10. Find the smallest among the given three numbers ( nested if )
+11. Find the largest among the given three numbers ( without nested if )
+12. Write a menu driven C program to calculate area of Triangle, rectangle, square. ( switch-case )
+
+####Programs Using Looping Statements
+
+13. Printing all even numbers in a given range
+14. Summation of series
+15. Factorial of a given number
+16. Reverse given number
+17. Fibonacci series generation
+18. Decimal to Binary and Octal conversion.
+
